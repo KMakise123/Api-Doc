@@ -4,12 +4,13 @@ import sidebar from "./sidebar";
 import footer from "./footer";
 
 const author = "hjh";
-const domain = "https://codefather.cn";
+const domain = "https://KMakise123.github.io/Api-Doc";
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
   title: "应用程序接口开放平台文档",
   description: "使得用户能够获得更丰富的体验和满足更多样化的需求",
+  base:"/api-doc/",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -120,7 +121,7 @@ export default defineConfig({
     lastUpdated: "最近更新",
 
     // GitHub 仓库位置
-    repo: "liyupi/codefather",
+    repo: "/KMakise123/Api-Doc",
     docsBranch: "master",
 
     // @ts-ignore
